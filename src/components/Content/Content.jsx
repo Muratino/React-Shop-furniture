@@ -7,12 +7,12 @@ import { setItems } from '../../redux/Slice/fetchItems';
 
 
 export const Content = () => {
-    const { getAllFurniture, clearError, process, setProcess } = ShopServers();
+    const { getAllFurniture, clearError, setProcess } = ShopServers();
     const dispatch = useDispatch();
-    
+
     useEffect(() => {
         updateItems();
-    }, []);
+    }, []); // eslint-disable-line
 
     const updateItems = () => {
         clearError();

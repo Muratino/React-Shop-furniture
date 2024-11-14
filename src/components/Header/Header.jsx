@@ -19,9 +19,9 @@ export const Header = () => {
                         className={`shop-cart-button ${cartOpen ? 'active' : ''}`} />
                     <div className='shop-cart-button_elem'>{arrOrders.length}</div>
                     <ul className="nav">
-                        <li onClick={() => alert('Молодой frontend разработчик:3')}>Про нас</li>
-                        <li onClick={() => alert('Можете скинуть бабосик на такие данные:)   4890 4947 5653 7031')}>Контакты</li>
-                        <li>Профиль</li>
+                        <li onClick={() => alert('Hi')}>Про нас</li>
+                        <li onClick={() => alert('Hi')}>Контакты</li>
+                        <li onClick={() => alert('Hi')}>Профиль</li>
                     </ul>
                     <ShopCart />
                 </div>
